@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".Booking_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userName"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:hint="Enter Your Name"
+            android:textColorHint="@color/white"
+            android:background="@drawable/buttons"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/companyName"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:hint="Enter Company Name"
+            android:textColorHint="@color/white"
+            android:background="@drawable/buttons"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/companyContact"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:hint="Enter Company Phone"
+            android:textColorHint="@color/white"
+            android:background="@drawable/buttons"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/enterJobType"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:hint="Enter Job Type"
+            android:textColorHint="@color/white"
+            android:background="@drawable/buttons"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/startTime"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:hint="Start Time"
+            android:textColorHint="@color/white"
+            android:background="@drawable/buttons"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/endTime"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:hint="End Time"
+            android:textColorHint="@color/white"
+            android:background="@drawable/buttons"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/subBtn"
+            android:text="Submit"
+            android:layout_margin="5dp"
+            android:background="@drawable/buttons"></Button>
+
+    </LinearLayout>
+
+</RelativeLayout>

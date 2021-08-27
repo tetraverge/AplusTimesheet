@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AplusTimesheet">
+        <activity android:name=".Contact_Us"></activity>
+        <activity android:name=".Booking_Activity" />
+        <activity android:name=".Registration_Activity" />
+        <activity android:name=".Login_Activity" />
+        <activity android:name=".Profile_Activity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

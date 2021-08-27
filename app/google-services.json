@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1068340886344",
+    "project_id": "aplus-timesheet",
+    "storage_bucket": "aplus-timesheet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068340886344:android:84e546bad2efde3851917d",
+        "android_client_info": {
+          "package_name": "com.tetraverge.aplustimesheet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068340886344-j88g23min0neb4ep3029q8plao0acmcb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS9D2C7aXFRLvS_48J0wk0MHf6ge2li24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068340886344-j88g23min0neb4ep3029q8plao0acmcb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
